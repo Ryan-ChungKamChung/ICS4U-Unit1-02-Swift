@@ -30,7 +30,7 @@ if let mass = Double(massString) {
 
     print("This mass would create \(energy)J")
 } else {
-    print("Something went wrong.")
+    print("That wasn't a number.")
 }
 
 print("\nDone.")
