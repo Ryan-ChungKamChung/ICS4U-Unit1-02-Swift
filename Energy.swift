@@ -28,7 +28,7 @@ if let mass = Double(massString) {
     // Calculates E = mc^2 to find the amount of energy produced.
     let energy = mass * pow(lightSpeed, 2)
 
-    print("This mass would create \(energy)J")
+    print("This mass would create \(energy) J")
 } else {
     print("That wasn't a number.")
 }
