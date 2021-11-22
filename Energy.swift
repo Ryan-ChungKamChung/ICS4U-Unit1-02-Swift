@@ -25,7 +25,7 @@ guard let massString = readLine(), !massString.isEmpty else {
 // Validates and makes sure it is possible to convert to Double.
 if let mass = Double(massString) {
 
-    // Calculates E = mc^2 to find the amount of energy produced.
+    // Calculates (E = mc²) to find the amount of energy produced.
     let energy = mass * pow(lightSpeed, 2)
 
     print("This mass would create \(energy) J")
